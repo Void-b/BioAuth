@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <group>
+        <item
+            android:id="@+id/criminal"
+            android:title="Criminal Filing" />
+        <item
+            android:id="@+id/suspect"
+            android:title="Suspect Filing" />
+        <item
+            android:id="@+id/crimes"
+            android:title="Crimes" />
+        <item
+            android:id="@+id/officers"
+            android:title="Officers" />
+        <item
+            android:id="@+id/investigation"
+            android:title="Investigation" />
+        <item
+            android:id="@+id/caseprofile"
+            android:title="Case Profile" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/about"
+            android:title="About"/>
+    </group>
+
+</menu>

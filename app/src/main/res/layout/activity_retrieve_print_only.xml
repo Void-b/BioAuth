@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/black"
+    tools:context=".RetrievePrintOnly">
+
+    <ImageView
+        android:id="@+id/ivFingerDisplay1"
+        android:layout_width="384dp"
+        android:layout_height="290dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tvMessage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/buttonScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan finger"
+        android:layout_centerHorizontal="true"
+        android:onClick="startScan"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvMessage"
+        android:id="@+id/okay1"
+        android:text="Return To Compare Print"
+        android:gravity="center"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
